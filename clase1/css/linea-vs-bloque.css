@@ -3,3 +3,23 @@ body{
     background-color: #e9ffe9;
     font-family: 'Raleway', sans-serif;
 }
+
+a{
+    background-color: #769976;
+    display: inline-block;
+    /*
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    */
+     /* padding: 20px 30px; */
+    padding: 20px 30px 20px 30px;
+    /* margin: 0px 12px; */
+
+    text-decoration: none; /* quitar subrayado */
+    color: #e9ffe9;
+}
+a:hover{
+    background-color: #86ae86;
+}

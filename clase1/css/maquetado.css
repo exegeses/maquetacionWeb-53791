@@ -1,0 +1,18 @@
+body{
+    background-color: #e8e8e8;
+}
+header{
+    background-color: #D26137;
+    height: 160px;
+}
+nav{
+    height: 60px;
+    background-color: #473A34;
+}
+main{
+    height: 560px;
+}
+footer{
+    height: 160px;
+    background-color: #473A34;
+}

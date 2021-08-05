@@ -19,4 +19,5 @@ Maquetado web es: volcar a código HTML y CSS el proyecto web que vayamos a reli
    Sublime Text 3 https://www.sublimetext.com/   
    Visual Studio Code https://code.visualstudio.com/  
    Brackets http://brackets.io/  
+   Atom http://atom.io/  
    

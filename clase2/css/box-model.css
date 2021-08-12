@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bbbbbb;
+    font-family: Nunito;
+    color: #473A34;
+}
+
+/* agrupamiento */
+#verde, #naranja, #celeste{
+    height: 100px;
+    width: 300px;
+}
+
+#verde{
+    background-color: #b0f486;
+    padding: 25px;
+}
+#naranja{
+    background-color: #f4b686;
+}
+#celeste{
+    background-color: #86f4e9;
+}

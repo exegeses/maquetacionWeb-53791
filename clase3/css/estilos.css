@@ -31,7 +31,21 @@ nav{
 
 main{
     min-height: 550px;
+    width: 1100px;
+    margin: auto;
 }
+    main article{
+        width: 310px;
+        padding: 20px;
+        display: inline-block;
+        margin: 0px 0px 30px 41px;
+        transition: .3s;
+        box-shadow: 0px 5px 5px #eee;
+    }
+    main article:hover{
+        box-shadow: 0px 5px 8px #d5d5d5;
+    }
+
 footer{
     height: 180px;
     background-color: #f9f9f9;

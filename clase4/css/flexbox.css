@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+*{ margin: 0px; padding: 0px; box-sizing: border-box; }
+body{
+    font-family: Raleway;
+    font-size: 1.3em;
+    color: #666;
+    width: 900px;
+    margin: auto;
+}
+h1, h2, hr{
+    margin: 20px 0px;
+}
+/* ##### contenedores flex #### */
+#contenedor, #contenedor2,
+#contenedor3, #contenedor4,
+#contenedor5, #contenedor6 {
+    background-color: #ccc;
+    min-height: 300px;
+    display: flex; /* siempre al contenedor */
+}
+article{
+    background-color: #fff;
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+}
+/* configuraciones de cada contenedor */
+#contenedor{
+    flex-direction: row; /* predeterminado */
+    /* flex-direction: row-reverse; /* invierte orden */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+#contenedor2{
+    flex-direction: row; /* predeterminado */
+    /* flex-wrap: nowrap; /* NO respeta los anchos */
+    flex-wrap: wrap; /* respeta los anchos */
+}
+#contenedor3{
+    flex-wrap: wrap; /* respeta los anchos */
+    /* justify-content trabaja en eje horizontal */
+    /* justify-content: flex-start; /* predeterminado */
+    justify-content: flex-end; /* a la derecha */
+}
+#contenedor4{
+    flex-wrap: wrap; /* respeta los anchos */
+    /* justify-content: space-between;*/
+    /* justify-content: space-around; /* respeta margin */
+    justify-content: space-evenly; /* no respeta margin */
+}
+#contenedor5{
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: space-evenly; /* no respeta margin */
+    /* align-content trabaja en eje vertical */
+    /* align-content: flex-start; /* predeterminado */
+    /* align-content: flex-end; /* ubica debajo */
+    align-content: center; /* ubica al centro */
+
+}
+#contenedor6{
+    flex-wrap: wrap; /* respeta los anchos */
+    justify-content: space-evenly; /* no respeta margin */
+    /* align-content: space-evenly;  /* espacios veticales */
+    align-content: stretch; /* estirar en vertical */
+}
+#contenedor6 article{
+    /* reseteamos altura */
+    height: initial;
+}

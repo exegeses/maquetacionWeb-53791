@@ -8,18 +8,31 @@ header{
     height: 110px;
     border-top: 8px solid #E16D65;
     display: flex;
-    background-color: #f2ede3;
 }
     header #top{
         width: 900px;
         margin: auto;
         display: flex;
         justify-content: space-between; /* i - d */
-        background-color: #E2D6BB;
     }
     header #top a{
         text-decoration: none;
     }
     header #marca{
+        color: #E16D65;
+        font-size: 20px;
+        font-weight: 600; /* bold */
+        padding: 20px 30px 20px 0px;
+    }
+    #top nav{
+        display: flex;
+        line-height: 40px;
+    }
+    #top nav a{
+        padding: 20px 0px 20px 30px;
+        font-size: 16px;
+        color: #707070;
+    }
+    #top nav a:hover{
         color: #E16D65;
     }

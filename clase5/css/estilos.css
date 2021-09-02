@@ -36,3 +36,9 @@ header{
     #top nav a:hover{
         color: #E16D65;
     }
+
+    /*### HERO  ###*/
+    #hero{
+        height: 350px;
+    }
+    /*### FIN HERO ###*/

@@ -40,5 +40,9 @@ header{
     /*### HERO  ###*/
     #hero{
         height: 350px;
+        background-image: url(../imagenes/pink-desk.webp);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
     }
     /*### FIN HERO ###*/

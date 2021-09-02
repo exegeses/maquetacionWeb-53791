@@ -1,1 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+*{ margin: 0px; padding: 0px; box-sizing: border-box; }
+body{
+    font-family: Nunito, sans-serif;
+    color: #707070;
+}
+header{
+    height: 110px;
+    border-top: 8px solid #E16D65;
+    display: flex;
+    background-color: #f2ede3;
+}
+    header #top{
+        width: 900px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between; /* i - d */
+        background-color: #E2D6BB;
+    }
+    header #top a{
+        text-decoration: none;
+    }
+    header #marca{
+        color: #E16D65;
+    }

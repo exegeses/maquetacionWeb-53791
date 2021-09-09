@@ -46,3 +46,65 @@ header{
         background-size: cover;
     }
     /*### FIN HERO ###*/
+
+    /*### MAIN ###*/
+
+    main{
+        width: 900px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        min-height: 560px; /* soólo en caso que algún main
+                            en otra página tenga elementos con float */
+    }
+        h1{
+            width: 100%;
+            font-size: 20px;
+        }
+        article{
+            width: 400px;
+            padding: 20px;
+        }
+            h2{
+                font-size: 16px;
+                background-image: url(../imagenes/wrench-sunglo.png);
+                background-size: 20px 20px;
+                background-repeat: no-repeat;
+                padding-left: 30px;
+                margin-bottom: 15px;
+            }
+
+    /*### FIN MAIN ###*/
+    /*### FOOTER ###*/
+        footer {
+            height: 110px;
+        }
+        footer, footer nav{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* centrado horizaontal */
+            align-items: center;
+        }
+
+        footer a{
+            text-decoration:none;
+            padding: 10px;
+            color: #707070;
+            transition: 200ms;
+        }
+        footer nav a:hover{
+            color: #E16D65;
+        }
+
+        footer a img{
+            width: 20px;
+            opacity: .5;
+        }
+        footer a img:hover{
+            opacity: 1;
+        }
+
+
+    /*### FIN FOOTER ###*/
